@@ -1,0 +1,13 @@
+package day04_concatenation;
+
+public class SalaryCalculator {
+
+    public static void main(String[] args) {
+
+        String name = "Joe";
+        byte hourlyRate = 40;
+        byte weeklyHours = 45;
+
+        System.out.print("Hello " + name + ", your salary is $" + weeklyHours*hourlyRate*52);
+    }
+}
